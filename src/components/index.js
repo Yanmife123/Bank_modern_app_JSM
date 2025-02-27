@@ -10,6 +10,7 @@ import Stats from "./Stats";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import CardDeal from "./CardDeal";
+import Clients from "./Clients";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Hero,
   Footer,
   CardDeal,
+  Clients,
 };

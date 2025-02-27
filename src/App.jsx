@@ -8,7 +8,7 @@ import {
   Billing,
   CardDeal,
   Testimonials,
-  /* Clients, */
+  Clients,
   CTA,
   Footer,
 } from "./components";
@@ -31,7 +31,7 @@ function App() {
       <div className={`bg-primary ${style.paddingX}  ${style.flexStart}`}>
         <div className={`${style.boxWidth}`}>
           <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
-          {/* <Clients />  */}
+          <Clients />
           <CTA /> <Footer />
         </div>
       </div>
